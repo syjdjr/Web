@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS product(
+	productId VARCHAR(10) NOT NULL,
+	name VARCHAR(20),
+	price INTEGER,
+	description TEXT,
+	category VARCHAR(20),
+	stock LONG,
+	fileName VARCHAR(20),
+	PRIMARY KEY (productId)
+)default CHARSET=utf8;
+
+select * from product;
+
